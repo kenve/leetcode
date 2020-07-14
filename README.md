@@ -47,6 +47,7 @@
 - [求 1+2+…+n](./lcof/求1+2+…+n.md)
 - [打印从 1 到最大的 n 位数](./lcof/打印从1到最大的n位数.md)
 - [和为 s 的两个数字](./lcof/和为s的两个数字.md)
+- [剑指 Offer 57 - II. 和为s的连续正数序列](./lcof/和为s的连续正数序列.md)
 
 ### [题库](https://leetcode-cn.com/problemset/all/)
 
