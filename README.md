@@ -102,3 +102,9 @@
 #### 其他
 
 - [LCP 01. 猜数字](./all/猜数字.md)
+
+### [程序员面试金典](https://leetcode-cn.com/problemset/lcci/)
+
+#### 链表
+
+- [面试题 02.03. 删除中间节点](./lcci/删除中间节点.md)
