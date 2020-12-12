@@ -1,4 +1,4 @@
-### [面试题 54. 二叉搜索树的第 k 大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+### [剑指 Offer 54. 二叉搜索树的第 k 大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 
 **题目：** 给定一棵二叉搜索树，请找出其中第 k 大的节点。
 
@@ -58,9 +58,9 @@
  * @param {number} k
  * @return {number}
  */
-var kthLargest = function(root, k) {
+var kthLargest = function (root, k) {
   let res = [];
-  const inOrderTraversal = node => {
+  const inOrderTraversal = (node) => {
     if (node === null) {
       return null;
     }
@@ -79,7 +79,7 @@ var kthLargest = function(root, k) {
 **题解二：栈**
 
 ```js
-var kthLargest = function(root, k) {
+var kthLargest = function (root, k) {
   const res = [],
     stack = [];
   let node = root;
@@ -105,7 +105,7 @@ var kthLargest = function(root, k) {
 当个数正好等于 k 的时候返回值。
 
 ```js
-var kthLargest = function(root, k) {
+var kthLargest = function (root, k) {
   const stack = [];
   let node = root;
   let count = 0;
